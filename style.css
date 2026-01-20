@@ -1,19 +1,32 @@
 body {
   font-family: Arial, sans-serif;
-  background: #f4f4f4;
+  background: #464646;
   text-align: center;
   margin-top: 100px;
+  color: #fff;
 }
 
 .container {
-  background: white;
+  background: #464646;
   padding: 30px;
   display: inline-block;
   border-radius: 8px;
 }
 
-button {
+.btn {
   margin-top: 20px;
   padding: 10px 20px;
   cursor: pointer;
+  color: rgb(255, 255, 255);
+  background: rgb(61, 61, 218);
+  border-radius: 10px;
+}
+
+.quote {
+  font-style: italic;
+}
+
+.quote::after,
+.quote::before {
+  content: '“';
 }
